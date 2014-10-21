@@ -1,3 +1,150 @@
 @charset "UTF-8";
 /* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Changa+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(http://fonts.googleapis.com/css?family=Ultra);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,400italic);
 
+/*base*/
+*{
+	margin:auto;
+}
+
+body{
+	background: url(images/bk.png);
+	
+}
+
+a{
+	color:#bfb24f; 
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+h3{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:25px;
+	font-weight:bold;
+	color:#e6267c;
+}
+
+header h1, header h2{
+	display:none;
+}
+
+/*layout*/
+.intro{
+	background:url(images/header.png) no-repeat;
+height:136px;
+position:relative;
+left:150px;
+
+}
+
+.page-wrapper{
+	background:url(images/bk_image-duplicate.jpg) no-repeat;
+	position:relative;
+	top:20px;
+	width:936px;
+			
+}
+
+.page_footer{
+	font-family: 'Arimo', sans-serif;
+	background:black;
+	width:936px;
+	position:absolute;
+	bottom:131px;
+	text-align:center;
+}
+
+.preamble{
+	top:5px;
+	right:310px;
+}
+.explanation{
+	top:5px;
+	left:240px;
+	
+}
+.participation{
+	top:-5px;
+	right:165px;
+}
+
+.benefits{
+	right:165px;
+	top:5px;
+}
+.requirements{
+	left:240px;
+	top:-335px;
+}
+
+.preamble p, .explanation p, .participation p,.benefits p,.requirements p{
+	color:white;
+	font-family: 'Arimo', sans-serif;
+	font-size:12px;
+	font-style:normal;
+	text-wrap:normal;
+}
+
+.preamble, .explanation, .participation,.benefits,.requirements{
+	/*background:#000000;*/
+	background-color: rgba(0, 0, 0, 0.8);
+	-webkit-border-radius: 20px 20px 20px 20px;
+	border-radius: 20px 20px 20px 20px;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:10px;
+	width:335px;
+	position:relative;
+}
+.design-selection, .design-archives, .zen-resources{
+	float:left;
+	padding-left:20px;
+}
+
+.zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .Fork this site on Github{
+	margin-right:50px;
+}
+.wrapper li{
+	list-style:none;
+}
+.wrapper{
+	display:block;
+	background-color: rgba(0, 0, 0, 0.8);	
+	float:left;
+	position:absolute;
+	top:867px;
+	width:936px;
+	color:white;
+	font-family: 'Arimo', sans-serif;
+}
+.summary a{
+	color:#f8e65d;
+}
+.summary p{
+	color:white;
+}
+.summary{
+	font-family:'Oswald', sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	background-color:#e6267c;
+	height:130px;
+	width:237px;
+	padding-left:10px;
+	padding-top:5px;
+	padding-right:10px;
+-webkit-border-radius: 20px 20px 20px 20px;
+border-radius: 20px 20px 20px 20px;
+position:relative;
+left:50px;
+	
+}
